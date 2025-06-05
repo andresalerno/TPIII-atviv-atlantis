@@ -1,40 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Atividade IV
 
-## Getting Started
+Empresa criada: Ocean Solutions
 
-First, run the development server:
+Fundador, Dev e Engenheiro de Software: André Salerno
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Atividade
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+"Portanto, você decidiu desenvolver uma interface para uma aplicação  do  tipo  Single  Page  Application  (SPA).  SPAs  são  aplicações  cuja  funcionalidade  está concentrada em uma única página.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+O  objetivo  agora  é  construir  um  protótipo  navegável  para  a  futura  aplicação  SPA.  Você  pode escolher  ou  se  basear  em  qualquer  framework  para  construção  da  interface,  mas  lembre-se, esta interface precisa ser amigável, com ótima usabilidade.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Um ponto importante, o protótipo navegável deve contemplar todas as funcionalidades que já existem  no  sistema  CLI,  como  o  CRUD  de  clientes  (hospedes),  cadastro  de  acomodações  e registro de hospedagens."
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Como rodar o sistema
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone o repositório
+2. Abra o terminal e navegue até a pasta do projeto
+3. Execute o comando `npm install` para instalar as dependências
+4. Execute o comando `npm run dev` para iniciar o servidor
+5. Abra o navegador e acesse: http://localhost:3000/dashboard
 
-## Learn More
+## Tecnologias utilizadas (frameworks e bibliotecas)
 
-To learn more about Next.js, take a look at the following resources:
+- React
+- Next.js
+- Tailwind CSS
+- Shadcon UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Dados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Esses foram mockados e eocntram-se em: ./src/lib/mocks
 
-## Deploy on Vercel
+## Funcionalidades
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Cadastro de clientes (hospedes)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+<img src="./frontend/img/crud_cliente.gif" alt="Diagrama" width="800"/>
+
+- Ediar clientes (hospedes)
+
+<img src="./frontend/img/crud_cliente1.gif" alt="Diagrama" width="800"/>
+
+- Excluir clientes (hospedes)
+
+<img src="./frontend/img/crud_cliente2.gif" alt="Diagrama" width="800"/>
+
+- Reservar ocupação (hospedes)
+
+<img src="./frontend/img/crud_cliente3.gif" alt="Diagrama" width="800"/>
+
+- Tipos de acomodações (quartos)
+
+<img src="./frontend/img/crud_cliente4.gif" alt="Diagrama" width="800"/>
+
+- Associar acomodação
+
+<img src="./frontend/img/crud_cliente5.gif" alt="Diagrama" width="800"/>
+
